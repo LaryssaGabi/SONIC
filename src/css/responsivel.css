@@ -1,0 +1,10 @@
+@media (max-width: 1120px){
+    .logo-SONIC{
+        max-width: 190px;
+    }
+    .img-animacao img{
+        width: 150px;
+        height: 120px;
+       
+    }
+}

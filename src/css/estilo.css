@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'bleeding_cowboys';
+    src: url(fonts/bleeding_cowboys-webfont.woff) format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #100264;
+    color: #fff;
+    font-family: 'bleeding_cowboys';
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-SONIC{
+    height: 200px;
+}
+
+.img-animacao{
+    display: flex;
+}
+.img-animacao img{
+    width: 170px;
+    height: 190px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.img-animacao img:not(:last-child){
+    margin-right: 30px;
+}
+
+.img-animacao:hover > :not(:hover){
+    opacity: 0.2;
+    color: #b01c1c;
+}
+.img-animacao img:hover  {
+    transform: scale(1.2);
+    filter: drop-shadow(8px 8px 6px);
+}
+
+
+
+
+.informacoes {
+    padding: 5px;
+	text-transform: uppercase;
+	font-size: 17px;  
+}
+
+.alinhar1{
+    margin-left: 77px;
+}
+.alinhar2 {
+    margin-left: 30px;
+}
+
+.alinhar3 {
+    margin-left: 50px;
+}
+
+.alinhar4{
+    margin-left: 50px;
+}
+
+.alinhar5{
+    margin-left: 60px;
+}
+
+.alinhar6{
+    margin-left: 40px;
+}
+
+.alinhar7{
+    margin-left: 40px;
+}
+
